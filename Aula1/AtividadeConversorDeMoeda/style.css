@@ -1,0 +1,36 @@
+
+body{
+  background-image:url(/Aula1/AtividadeConversorDeMoeda/imagens/bg_moedasconverse.jpg); 
+  background-size:cover;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    background-color: rgb(211, 155, 14);
+    fonte-sizy: 150px;
+}
+
+.descricao{
+    color: white;
+    text-align: center;
+  }
+div{
+  border: 2px;
+  border-color: aliceblue;
+  border-style: double;
+  padding-bottom: 150px;
+ text-align: center;
+ color: aliceblue;
+  background-color: goldenrod;
+}
+#button-convert{
+  text-align: center;
+  color: aqua;
+  background-color: black;
+
+}
+
+#barrinha-valor-real{
+  color: black;
+}
