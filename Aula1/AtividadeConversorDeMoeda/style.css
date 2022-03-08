@@ -26,7 +26,7 @@ div{
 }
 #button-convert{
   text-align: center;
-  color: aqua;
+  color: rgb(251, 255, 0);
   background-color: black;
 
 }
@@ -34,3 +34,8 @@ div{
 #barrinha-valor-real{
   color: black;
 }
+span{
+  color: blue;
+  font-size: 25px;
+  font-style:inherit;
+  }
