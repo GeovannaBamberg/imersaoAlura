@@ -8,7 +8,7 @@ h1 {
     text-align: center;
     color: white;
     background-color: rgb(211, 155, 14);
-    fonte-sizy: 150px;
+    
 }
 
 .descricao{
@@ -19,9 +19,9 @@ div{
   border: 2px;
   border-color: aliceblue;
   border-style: double;
-  padding-bottom: 150px;
- text-align: center;
- color: aliceblue;
+  padding-bottom: 10px;
+  text-align: center;
+  color: aliceblue;
   background-color: goldenrod;
 }
 #button-convert{
@@ -35,7 +35,7 @@ div{
   color: black;
 }
 span{
-  color: blue;
+  color: rgb(255, 255, 255);
   font-size: 25px;
   font-style:inherit;
   }
