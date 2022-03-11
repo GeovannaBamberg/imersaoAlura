@@ -1,7 +1,8 @@
 
 body{
-  background-image:url(/Aula1/AtividadeConversorDeMoeda/imagens/bg_moedasconverse.jpg); 
+  background-image:url(/Aula1/AtividadeConversorDeMoeda/assets/bg_moedasconverse.jpg); 
   background-size:cover;
+  
 }
 
 h1 {
@@ -23,6 +24,7 @@ div{
   text-align: center;
   color: aliceblue;
   background-color: goldenrod;
+  display: flex;
 }
 #button-convert{
   text-align: center;
