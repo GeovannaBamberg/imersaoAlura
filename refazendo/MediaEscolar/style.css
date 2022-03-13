@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(0, 0, 0);
+    background-image: url(/refazendo/MediaEscolar/assets/bg_principal.jpg);
+    text-align: center;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: paleturquoise;
+}
+.pageTitulo{
+    color: rgb(126, 191, 191);
+}
+.pageSubtitulo{
+    margin-top: 0px;
+    color: rgb(230, 217, 243);
+
+}
+#icon{
+    size: 250px, 250px;
+    width: 100px;
+}
+.media{
+    background-color: rgb(81, 79, 123);
+    color: white;
+
+}
+#resultado{
+    background-color: black;
+    color: rgb(186, 230, 233);
+}

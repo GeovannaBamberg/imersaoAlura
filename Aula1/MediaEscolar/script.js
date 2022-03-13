@@ -5,7 +5,7 @@ function notafinal(){
     let notaDoQuartoSemestre =  parseFloat(document.getElementById("quartoSemestre").value)
     let notaFinal = ((notaDoPrimeiroSemestre+notaDoSegundoSemestre+notaDoTerceiroSemestre+notaDoQuartoSemestre)/4);
     let notaFixada = notaFinal.toFixed(2)
-    let resultado = document.getElementById("mediaFinal")
+    let resultado = document.getElementById("resultado")
 
     if (notaFixada >= 7) {
         resultado.innerHTML = ("Sua média é: " + notaFixada + " você foi aprovada pela média");

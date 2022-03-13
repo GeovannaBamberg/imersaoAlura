@@ -6,7 +6,7 @@ function adicionar() {
   for (var i = 0; i < listaFilmes.length; i++) {
     imagens.insertAdjacentHTML(
       "afterbegin",
-      "<img src=" + listaFilmes[i] + ">"
+      "<span><img src=" + listaFilmes[i] + "></span>"
     );
   }
 }
