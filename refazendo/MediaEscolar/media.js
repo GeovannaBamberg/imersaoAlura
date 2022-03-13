@@ -9,7 +9,7 @@ function media(){
         resultado.innerHTML = ("Nota que você precisa tirar na 3º nota é: " + calculoProvafinal ); 
     }
     else {
-        resultado.innerHTML = ("Você ja fez a 3º prova? selecione: ' Nota Recuperação' " ); 
+        resultado.innerHTML = ("Você ja fez a 3º prova? selecione: ' Nota da Recuperação' " ); 
     }
 }
 
@@ -18,13 +18,13 @@ var primeiraNota = parseFloat(document.getElementById("PrimeiraNota").value);
 var segundaNota = parseFloat(document.getElementById("SegundaNota").value);
 var terceiraNota = parseFloat(document.getElementById("TerceiraNota").value);
 var resultado = document.getElementById("resultado");
-let calculoRecuperacao =  ((50-((primeiraNota+segundaNota+terceiraNota)/3)*7)/3).toFixed(0);
+let calculoRecuperacao =  ((50-((primeiraNota+segundaNota+terceiraNota)/3)*7)/3).toFixed(2);
+let mediaExclusiva = ((primeiraNota+segundaNota+terceiraNota)/3);
 
-if (calculoRecuperacao > 0) {
+if (calculoRecuperacao > 0.33) {
     resultado.innerHTML = ("A nota que você precisará alcançar na prova de recupeção é: " + calculoRecuperacao );
 }
-else {
+else{
     resultado.innerHTML = ("Não precisará fazer recuperação");
 }
- 
 }
