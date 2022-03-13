@@ -6,24 +6,31 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: paleturquoise;
 }
+
 .pageTitulo{
+    background-color: rgba(255, 255, 255, 0.323);
     color: rgb(126, 191, 191);
+    font-size: 30px;
 }
 .pageSubtitulo{
     margin-top: 0px;
     color: rgb(230, 217, 243);
 
 }
+
 #icon{
     size: 250px, 250px;
     width: 100px;
 }
 .media{
-    background-color: rgb(81, 79, 123);
-    color: white;
+    background-color: rgba(81, 79, 123, 0.111);
+    color: rgb(230, 217, 243);
+    border-radius: 10px 20px 30px;
+    border-color: rgba(255, 255, 255, 0.323);
+    
 
 }
 #resultado{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.563);
     color: rgb(186, 230, 233);
 }

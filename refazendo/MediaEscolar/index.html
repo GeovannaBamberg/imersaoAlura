@@ -7,15 +7,14 @@
     <title>Notas Uneb</title>
     <link rel="stylesheet" href="/refazendo/MediaEscolar/style.css">
 </head>
-<script src="/refazendo/MediaEscolar/media.js"></script>
+<script src="/refazendo/MediaEscolar/notas.js"></script>
 <body>
    
     <div>  <a href="http://www.portalacademico.uneb.br/PortalSagres/Acesso.aspx"> <img src="/refazendo/MediaEscolar/assets/Brasão_da_UNEB.png" alt=site-uneb id="icon"></a>
-        <h1 class="pageTitulo">Calcule a nota ultima prova ou da recuperação</h1>
-            <label class="pageSubtitulo">Calcule qual nota precisará alcançar para ser aprovada na materia </label>
+        <h1 class="pageTitulo">Calcule a nota última prova ou nota da recuperação</h1>
     </div>
+    <label class="pageSubtitulo">Calcule a nota precisará alcançar para ser aprovada na matéria </label>
     <br>
-
    <article>
        <label> Nota 1º Prova</label>
        <input type="number" class="notas" id="PrimeiraNota" value="0">  
@@ -27,7 +26,7 @@
        <input type="text" class="notas" id="TerceiraNota" value="0">  
        <br>
        <br>
-       <button type="submit" class="media" onclick="media()">Nota da 3º prova</button>
+       <button type="submit" class="media" onclick="UltimaProva()">Nota da 3º prova</button>
        <button type="submit" class="media" onclick="Recuperacao()"> Nota da Recuperação</button>
         <br> 
         <br>
