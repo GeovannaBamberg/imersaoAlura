@@ -8,7 +8,7 @@ function UltimaProva(){
     if (terceiraNota == 0){
         resultado.innerHTML = ("Nota que você precisa tirar na 3º nota é: " + calculoProvafinal ); 
     }else {
-        resultado.innerHTML = ("Você ja fez a 3º prova? selecione: ' Nota da Recuperação'. <br>Se não, deixe a 3º Prova zerada" ); 
+        resultado.innerHTML = ("Você ja fez a 3º prova? <br> <br> Então selecione: ' Nota da Recuperação'. <br>Se não, deixe a 3º Prova zerada" ); 
     }
 }
 
