@@ -6,7 +6,7 @@ function UltimaProva(){
     var resultado = document.getElementById("resultado");
     let calculoProvafinal =  ((7-((primeiraNota+segundaNota)/3))*3).toFixed(2);
     if (terceiraNota == 0){
-        resultado.innerHTML = ("Nota que você precisa tirar na 3º nota é: " + calculoProvafinal ); 
+        resultado.innerHTML = ("Nota que você precisa tirar na 3º prova é: " + calculoProvafinal ); 
     }else {
         resultado.innerHTML = ("Você ja fez a 3º prova? <br> <br> Então selecione: ' Nota da Recuperação'. <br>Se não, deixe a 3º Prova zerada" ); 
     }
