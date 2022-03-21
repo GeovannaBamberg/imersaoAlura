@@ -1,16 +1,20 @@
-var rafa = { nome: "Rafa", vitorias: 5, empates: 2, derrotas: 3, pontos: 0 };
-var paulo = { nome: "Paulo", vitorias: 2, empates: 2, derrotas: 6, pontos: 0 };
-var geovanna = {
-  nome: "Geovanna",
-  vitorias: 5,
-  empates: 0,
-  derrotas: 5,
-  pontos: 0
-};
+function novoJogador() {
+  var elementoNomeNovoJogador = document.getElementById("nomeNovoJogador")
+    .value;
 
-rafa.pontos = calculaPontos(rafa);
-paulo.pontos = calculaPontos(paulo);
-geovanna.pontos = calculaPontos(geovanna);
+  console.log(elementoNomeNovoJogador);
+
+  var maisUmJogador = {
+    nome: elementoNomeNovoJogador,
+    vitorias: 0,
+    empates: 0,
+    derrotas: 0,
+    pontos: 0
+  };
+  jogadores.push(maisUmJogador);
+
+  exibiJogadoresNaTela(jogadores);
+}
 
 function calculaPontos(jogador) {
   var pontosJogador = jogador.vitorias * 3 + jogador.empates;
@@ -18,7 +22,7 @@ function calculaPontos(jogador) {
   return pontosJogador;
 }
 
-var jogadores = [rafa, paulo, geovanna];
+var jogadores = [];
 
 function exibiJogadoresNaTela(jogadores) {
   var elemento = "";
