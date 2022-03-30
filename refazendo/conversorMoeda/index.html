@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="/refazendo/conversorMoeda/style.css">
+</head>
+<script src="/refazendo/conversorMoeda/conversor.js"></script>
+<body>
+    <div class="container">
+        <header>
+            <div class="title">
+                <h1>Conversor de moedas</h1>
+                <h3>Escolha a moeda que deseja convertar o real </h3>
+            </div>
+        </header>
+
+        <main>
+            <div class="opcoes">
+                <span>Valor em real:</span>
+                  <input type="number" id="valorDeEntrada">
+
+                  <span>Converter para:</span>
+
+                  <select name="moedas" id="moedas">
+                    <option value="dolar" id="dolar">EUA Dolar</option>
+                    <option value="euro" id="euro" selected>Euro</option>
+                    <option value="won" id="won">Coreia do Sul Won</option>
+                  </select>
+    
+                  <div class="resposta" id="resposta"></div>
+                  <br>
+                  <button onclick="converter()">Converter</button>
+        
+                  
+            </div>
+    
+        </main>
+    </div>
+
+</body>
+</html>

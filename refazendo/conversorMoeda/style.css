@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+body{
+    background: linear-gradient(225.34deg, #413d3d 0%, #DD7C13 101.17%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    margin: 64px;
+    background:  #ECF4FF;
+    box-shadow: 6px 6px 6px 6px #41120d;
+    border-radius: 20px;
+    color: #57160f;
+    padding: 70px;
+}
+.title{
+    display: flexbox;
+    text-align: center;
+}
+.title h1{
+    color: #DD7C13;
+    margin-bottom: 5px;
+}
+.title h3{
+    margin-top: 2px;
+    color: #854c0f;
+}
+.opcoes{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+#resposta{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding-top: 5px;
+}
+
+button{
+    background-color: #DD7C13;
+    border-radius: 100px;
+    color: #57160f;
+}
