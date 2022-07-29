@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
 body{
-    background: linear-gradient(230.65deg, #5f2721 27.49%, #ffc08f 83.19%);
+    background-color: #EBfdf2;
     font-family: 'Roboto Slab', serif;
 
 }
 .container{
     margin: 64px;
-    background: #ECF4FF;
-    box-shadow: 6px 6px 6px 6px #41120d;
+    background: #005A5B;
+    /*box-shadow: 6px 6px 6px 6px #41120d; */
     border-radius: 20px;
     color: #57160f;
     padding: 70px;
@@ -30,36 +30,36 @@ body{
     margin-left: 25px;
 }
 .titulo h1{
-    color: #41120d;
+    color: #effffa;
     font-weight: Medium 500;
     font-size: 36px;
 }
 .titulo h3{
     font-weight: 300;
     font-size: 24px;
-    color: #5f4735;
+    color: #bdfdea;
 }
 .trocaTema button{
 align-self: flex-end;
-color: #881007;
-background-color: #ECF4FF;
+color: #d1f3e8;
+background-color: #02A676;
 font-size: 20px;
 font-weight: 400;
 padding: 8px 16px;
 border-radius: 50px;
-border-color: #f8c6a0;
+border-color: #f9f9f9;
 }
 .projetos{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #f8c6a0;
+    background: #EBFDF2;
     margin-top: 50px;
     border-radius: 20px 50px 20px 50px;
     padding: 32px;
 }
 .projetosTitulo{
-    color: #7b614d;
+    color: #02A676;
     font-size: 36px;
     list-style: none;
     font-weight: 700;
@@ -68,6 +68,7 @@ border-color: #f8c6a0;
     padding-bottom: 15px;
     list-style-type:none;
     font-size: 24px;
+    color: #282a2a;
 }
 
 .projetosItem a{
@@ -78,7 +79,7 @@ color: #881007;
 
 .dark{
 
-    background: linear-gradient(230.65deg, #00012b 27.49%, #4b4576 83.19%);
+    background-color: #100f0f;
     font-family: 'Roboto Slab', serif;
 
 }
@@ -86,10 +87,10 @@ color: #881007;
 .dark .container{
 
     margin: 64px;
-    background: #000218c9;
-    box-shadow: 6px 6px 6px 6px #34345e;
+    background: #003840;
+   /* box-shadow: 6px 6px 6px 6px #34345e; */
     border-radius: 20px;
-    color: #1d14c7;
+    color: #003840;
     padding: 70px;
 
 }
@@ -98,14 +99,14 @@ color: #881007;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #413e55dc;
+    background: #101010;
     margin-top: 50px;
     border-radius: 20px 50px 20px 50px;
     padding: 32px;
 }
 
 .dark .projetosTitulo{
-    color: #9c7dd0;
+    color: #ffffff;
     font-size: 36px;
     list-style: none;
     font-weight: 700;
@@ -114,6 +115,7 @@ color: #881007;
     padding-bottom: 15px;
     list-style-type:none;
     font-size: 24px;
+    color: #c8cacb;
 }
 
 .dark .projetosItem a{
@@ -122,22 +124,22 @@ color: #3a398a;
 }
 
 .dark .titulo h1{
-    color: #45389d;
+    color: #ebf0f1;
     font-weight: Medium 500;
     font-size: 36px;
 }
 .dark .titulo h3{
     font-weight: 300;
     font-size: 24px;
-    color: #908abd;
+    color: #e9e9e9;
 }
 .dark .trocaTema button{
 align-self: flex-end;
 color: #f3f3f3ce;
-background-color: #05162e;
+background-color: #003840;
 font-size: 20px;
 font-weight: 400;
 padding: 8px 16px;
 border-radius: 50px;
-border-color: #38306b;
+border-color: #ffffff;
 }
