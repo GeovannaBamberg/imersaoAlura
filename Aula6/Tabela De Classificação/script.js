@@ -1,9 +1,7 @@
 function novoJogador() {
   var elementoNomeNovoJogador = document.getElementById("nomeNovoJogador")
     .value;
-
-  console.log(elementoNomeNovoJogador);
-
+    
   var maisUmJogador = {
     nome: elementoNomeNovoJogador,
     vitorias: 0,

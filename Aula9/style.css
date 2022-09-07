@@ -1,20 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+*{
+    margin: 0%;
+}
 body{
-    background-color: #EBfdf2;
+    background-color: hsl(143, 82%, 96%);
     font-family: 'Roboto Slab', serif;
+    background-image: url(https://images.pexels.com/photos/35196/water-plant-green-fine-layers.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: auto;
 
 }
 .container{
-    margin: 64px;
-    background: #005A5B;
+    width: 75vw;margin: 64px;
+    background: #005a5b4d;
     /*box-shadow: 6px 6px 6px 6px #41120d; */
     border-radius: 20px;
     color: #57160f;
     padding: 70px;
+    position: absolute;
+   /* left: 20px;
+    top: 64px;
+    right: 20px;*/
+
 }
 .cabecalho{
    display: flex;
    justify-content: space-between;
+   width: 70vw;
+
 }
 .perfil{
     display: flex;
@@ -40,14 +55,18 @@ body{
     color: #bdfdea;
 }
 .trocaTema button{
-align-self: flex-end;
-color: #d1f3e8;
-background-color: #02A676;
-font-size: 20px;
-font-weight: 400;
-padding: 8px 16px;
-border-radius: 50px;
-border-color: #f9f9f9;
+   /* align-self: flex-end; */
+    color: #d1f3e8;
+    background-color: #02A676;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 3px 16px;
+    border-radius: 50px;
+    border-color: #f9f9f9;
+    position: absolute;
+    right: 35px;
+    min-width: 90px;
+    max-width: 100px;
 }
 .projetos{
     display: flex;
@@ -81,13 +100,14 @@ color: #881007;
 
     background-color: #100f0f;
     font-family: 'Roboto Slab', serif;
+    background-image: url(https://images.pexels.com/photos/3826588/pexels-photo-3826588.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 
 }
 
 .dark .container{
 
     margin: 64px;
-    background: #003840;
+    background: #0037408c;
    /* box-shadow: 6px 6px 6px 6px #34345e; */
     border-radius: 20px;
     color: #003840;
