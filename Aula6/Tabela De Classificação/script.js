@@ -35,9 +35,7 @@ function exibiJogadoresNaTela(jogadores) {
     elemento +=
       "<td><button onClick='adicionarEmpate(" + i + ")'>Empate</button></td>";
     elemento +=
-      "<td> <button onClick='adicionarDerrota(" +
-      i +
-      ")'>Derrota</button></td>";
+      "<td> <button onClick='adicionarDerrota("+i+")'>Derrota</button></td>";
     elemento += "</tr>";
   }
   var tabelaJogadores = document.getElementById("tabelaJogadores");
